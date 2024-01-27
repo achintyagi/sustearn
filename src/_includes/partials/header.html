@@ -1,0 +1,13 @@
+
+<header class="site-head cluster">
+  <a
+  class="site-logo"
+  href="/"
+  {{ helpers.getLinkActiveState("/", page.url) | safe }} 
+  >
+    {{ site.title }}
+  </a>
+
+  <!-- site navigation -->
+  {% include "partials/main-nav.html" %}
+</header>

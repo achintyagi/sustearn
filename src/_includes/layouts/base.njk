@@ -1,0 +1,41 @@
+{% set siteTitle = site.title %}
+{% if customTitle %}
+  {% set title = customTitle %}
+{% endif %}
+{%- if page.url == '/' -%}
+  {%- set pageTitle = siteTitle -%}
+{%- else -%}
+  {%- set pageTitle = title + ' - ' + site.title -%}
+{%- endif -%}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ pageTitle }}</title>
+  <!-- if js is available add class -->
+  <script>document.documentElement.classList.add('has-js');</script>
+  <!-- css -->
+  <link rel="stylesheet" href="/assets/css/style.css?{{ assetHash }}">
+  <!-- preload scripts and fonts -->
+  <link rel="preload" href="/assets/scripts/main-nav.js?{{ assetHash }}" as="script" fetchpriority="high">
+  <!-- async JS -->
+  <script src="/assets/scripts/main-nav.js?{{ assetHash }}" defer></script>
+  <!-- meta information -->
+  {%- include "partials/meta-info.html" -%}
+  <!-- view transitions -->
+  <meta name="view-transition" content="same-origin" />
+</head>
+
+<body id="top">
+  <a href="#main" class="skip-to-main">Skip to content</a>
+  {% include "partials/header.html" %}
+  <main id="main" tabindex="-1">
+    {%- block content -%}
+      This page is under maintenance.
+    {%- endblock -%}
+  </main>
+  {% include "partials/footer.html" %}
+</body>
+</html>

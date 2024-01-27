@@ -1,0 +1,12 @@
+@custom-media --sm-n-above (min-width: 30em);
+@custom-media --md-n-above (min-width: 48em);
+@custom-media --sm-n-below (max-width: 29.9375em);
+@custom-media --md-n-below (max-width: 47.9375em);
+
+@custom-media --OSdark (prefers-color-scheme: dark);
+@custom-media --OSlight (prefers-color-scheme: light);
+
+@custom-media --hoverOK (hover: hover);
+
+@custom-media --motionOK (prefers-reduced-motion: no-preference);
+@custom-media --motionNotOK (prefers-reduced-motion: reduce);

@@ -1,0 +1,25 @@
+{% set navPages = collections.pages | eleventyNavigation %}
+
+<nav id="mainnav">
+  <div class="mainnav-list-container">
+    <ul class="mainnav-list" role="list">
+      {% for entry in navPages %}
+        <li>
+          <a 
+            href="{{ entry.url }}" 
+            {{ helpers.getLinkActiveState(entry.url, page.url) | safe }} 
+          >
+            {{ entry.title }}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</nav>
+
+<!--  template element holding a button that needs to be injected when JavaScript is finally available. based on an article by Manuel Matuzovic, https://web.dev/website-navigation/, see also https://kittygiraudel.com/2022/09/30/templating-in-html/ -->
+
+
+<template id="burger-template">
+	{% include "partials/burger-button.html" %}
+</template>

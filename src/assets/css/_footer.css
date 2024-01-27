@@ -1,0 +1,8 @@
+footer {
+	border-block-start: var(--border-thickness) solid;
+
+	a {
+		display: inline-block;
+		padding-block: var(--gutter);
+	}
+}
