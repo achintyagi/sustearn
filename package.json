@@ -17,6 +17,7 @@
 	"dependencies": {
 		"@11ty/eleventy-img": "^3.1.8",
 		"@11ty/eleventy-plugin-directory-output": "^1.0.1",
+		"@grimlink/eleventy-plugin-lucide-icons": "^2.0.1",
 		"browserslist": "^4.22.2",
 		"dotenv": "^16.0.1",
 		"html-minifier": "^4.0.0",

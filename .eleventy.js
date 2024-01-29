@@ -9,7 +9,7 @@
 
 const directoryOutputPlugin = require("@11ty/eleventy-plugin-directory-output");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
-const { EleventyRenderPlugin } = require("@11ty/eleventy");
+const lucideIcons = require("@grimlink/eleventy-plugin-lucide-icons");
 
 // Importing from config
 const getPages = require("./config/collections/pages.js");
@@ -49,7 +49,14 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addPlugin(htmlmin);
 	eleventyConfig.addPlugin(drafts);
 	eleventyConfig.addPlugin(pluginImages);
-	eleventyConfig.addPlugin(EleventyRenderPlugin);
+	eleventyConfig.addPlugin(lucideIcons, {
+		class: "icon",
+		width: "1em",
+		height: "1em",
+		stroke: "currentColor",
+		"stroke-width": 2,
+		"aria-hidden": "true",
+	});
 
 	//Custom Template Languages
 	eleventyConfig.addPlugin(lightningCSS);
