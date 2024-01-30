@@ -2,7 +2,14 @@
 
 <nav id="mainnav">
   <div class="mainnav-list-container">
-    <ul class="mainnav-list" role="list">
+    <ul class="mainnav-list" role="list">      
+      {% for item in productInfo %}
+        <li>
+          <a class="cluster" href={{ item.url }}>
+            {% lucide item.icon %} {{ item.label }}
+          </a>
+        </li>
+      {% endfor %}
       {% for entry in navPages %}
         <li>
           <a 
