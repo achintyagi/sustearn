@@ -4,7 +4,7 @@ layout: "layouts/home.html"
 permalink: "/"
 
 hero:
-  headline: "Empowering Sustainability Through Behavioral Change"
+  headline: "Empowering Sustainable Behaviour Through Rewards and Nudging"
   description: "Discover our dual solutions for individuals and businesses. Chart and reduce carbon emissions with our innovative tools, fostering sustainability in both personal and corporate realms. Start your sustainable journey today."
   cta:
     - label: "Explore Solutions"
