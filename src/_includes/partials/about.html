@@ -1,0 +1,20 @@
+<article>
+  <h2>{{ team.headline }}</h2>
+  <dl>
+    {% for member in team.memberList %}
+      <div>
+        <dt>{{ member.name }}</dt>
+        <dd>{{ member.role }}</dd>
+        <dd>{{ member.introduction }}</dd>
+      </div>
+    {% endfor %}
+  </dl>
+  <div>
+    <h3>{{ team.mission.label }}</h3>
+    <p>{{ team.mission.description }}</p>
+  </div>
+  <div>
+    <h3>{{ team.belief.label }}</h3>
+    <p>{{ team.belief.description }}</p>
+  </div>
+</article>

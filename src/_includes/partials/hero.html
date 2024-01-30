@@ -1,0 +1,9 @@
+<div>
+  <h1>{{ hero.headline }}</h1>
+  <p>{{ hero.description }}</p>
+  <div>
+    {% for item in hero.cta %}
+      <a href="{{ item.url }}">{{ item.label }}</a>
+    {% endfor %}
+  </div>
+</div>

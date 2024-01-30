@@ -1,0 +1,59 @@
+<article id="solutions">
+  <h2>{{ solutions.headline }}</h2>
+
+  <!-- product intro cards -->
+  <div>
+    {% for product in solutions.products %}
+      <div>
+        <p>{{ product.title }}</p>
+        <p>{{ product.overview }}</p>
+        <a href="#{{ product.title | slugify }}">
+          Know More <span class="vh">about {{ product.title }}</span>
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+
+  <!-- product info and how it works -->
+  {% for product in solutions.products %}
+    <div id={{ product.title | slugify }}>
+      <h3>{{ product.title }}</h3>
+      <dl>
+        {% for item in product.howItWorks %}
+          <div>
+            <dt>{{ item.term }} </dt>
+            <dd>{{ item.description | safe }}</dd>
+          </div>
+        {% endfor %}
+      </dl>
+      {% if product.images %}
+        <ul role="list">
+          <!-- TODO:update image size -->
+          {% for image in product.images %}
+            <li>
+              {% image
+                "./assets/images/" + image.url,
+                image.alt,
+                image.caption,
+                "100vw"
+              %}
+            </li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    </div>    
+  {% endfor %}
+
+  <!-- benefits -->
+  <div>
+    <h3>{{ benefits.headline }}</h3>
+    {% for segment in benefits.segments %}
+      <p>{{ segment.label }}</p>
+      <ul>
+      {% for benefit in segment.benefitList %}
+        <li>{{ benefit }}</li>
+      {% endfor %}
+      </ul>
+    {% endfor %}
+  </div>
+</article>
