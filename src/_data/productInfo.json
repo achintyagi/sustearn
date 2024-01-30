@@ -1,0 +1,14 @@
+[
+	{
+		"type": "App",
+		"label": "Download App",
+		"url": "https://apps.apple.com/in/app/slae/id1666982947",
+		"icon": "download"
+	},
+	{
+		"type": "Extension",
+		"label": "Download Extension",
+		"url": "#",
+		"icon": "download"
+	}
+]
