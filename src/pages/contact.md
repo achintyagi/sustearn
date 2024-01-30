@@ -5,5 +5,3 @@ eleventyNavigation:
   key: "Contact"
   order: 1
 ---
-
-This is my contact page.
