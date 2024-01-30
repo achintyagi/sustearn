@@ -1,9 +1,5 @@
-{% set siteTitle = site.title %}
-{% if customTitle %}
-  {% set title = customTitle %}
-{% endif %}
 {%- if page.url == '/' -%}
-  {%- set pageTitle = siteTitle -%}
+  {%- set pageTitle = site.title -%}
 {%- else -%}
   {%- set pageTitle = title + ' - ' + site.title -%}
 {%- endif -%}
@@ -33,7 +29,6 @@
   {% include "partials/header.html" %}
   <main id="main" tabindex="-1">
     {%- block content -%}
-      This page is under maintenance.
     {%- endblock -%}
   </main>
   {% include "partials/footer.html" %}
