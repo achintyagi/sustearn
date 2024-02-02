@@ -1,7 +1,7 @@
 /* Show a custom outline on :focus-visible */
 :focus-visible {
-	outline: var(--border-thickness) solid;
-	text-decoration: none;
+	outline: var(--border-medium) solid;
+	text-decoration-line: none;
 }
 
 [tabindex="-1"]:focus {
@@ -12,16 +12,16 @@
 	I've implemented a custom focus ring for these links
 	so the default is not needed
 */
-:is(.site-head, .site-footer) :is(a, button) {
+:is(#mainnav, .site-footer) :is(a, button) {
 	position: relative;
 }
 
-:is(.site-head, .site-footer) a:focus-visible {
+:is(#mainnav, .site-footer) :is(a, button):focus-visible {
 	outline: none;
 }
 
 /* custom focus ring */
-:where(.site-head, .site-footer) a:before {
+:where(#mainnav, .site-footer) :is(a, button):before {
 	content: "";
 	position: absolute;
 	inset: var(--gutter) calc(-1 / 4 * var(--gutter));
@@ -29,6 +29,6 @@
 	pointer-events: none;
 }
 
-:is(.site-head, .site-footer) a:focus-visible:before {
-	outline: var(--border-thickness) solid;
+:is(#mainnav, .site-footer) :is(a, button):focus-visible:before {
+	outline: var(--border-medium) solid;
 }
