@@ -1,16 +1,25 @@
 footer {
+	--cluster-gap: var(--gutter);
+	--cluster-horizontal-alignment: space-between;
+	background-color: var(--color-neutral-bg-tertiary);
 	border-block-start: var(--border-thin) solid
 		var(--color-neutral-border-primary);
-}
 
-.site-footer-inner {
-	--cluster-gap: 0 1em;
-
-	a {
+	> * {
 		padding-block: var(--gutter);
 	}
 
-	nav {
-		flex-grow: 999;
+	> * + * {
+		border-block-start: var(--border-thin) solid
+			var(--color-neutral-border-primary);
+	}
+}
+
+.sme-accreditation {
+	--cluster-gap: 1ch;
+
+	img {
+		inline-size: auto;
+		block-size: var(--space-m-l);
 	}
 }
