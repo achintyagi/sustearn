@@ -14,6 +14,8 @@
 	--border-radius: 0.25rem;
 	--border-radius-round: 100vmax;
 
+	--icon-gap: 0.375em;
+
 	--transition-movement: 200ms linear;
 }
 
