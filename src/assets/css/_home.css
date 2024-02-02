@@ -1,0 +1,41 @@
+.home {
+	padding-block: 0;
+
+	> * {
+		--column-gap: 0;
+		--row-gap: var(--space-l-xl);
+
+		grid-template-columns:
+			[fullbleed-start] 1fr var(--gutter) [main-start] var(--max-layout-width)
+			[main-end]
+			var(--gutter) 1fr [fullbleed-end];
+		padding-block: var(--space-xl-2xl);
+
+		> * {
+			grid-column: main;
+		}
+	}
+
+	> * + * {
+		border-block-start: var(--border-thin) dashed
+			var(--color-neutral-border-primary);
+	}
+}
+
+.how-it-works dl {
+	--row-gap: var(--gutter);
+	--column-gap: var(--space-l-xl);
+}
+
+.benefit-segment-container,
+.mission-belief-container {
+	svg {
+		inline-size: calc(1em * var(--line-height-standard));
+		block-size: calc(1em * var(--line-height-standard));
+		stroke: var(--color-brand-border-secondary);
+	}
+
+	h3 {
+		--flow-space: 0.5ex;
+	}
+}

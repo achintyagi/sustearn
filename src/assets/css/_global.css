@@ -1,6 +1,6 @@
 :root {
 	--measure: 60ch;
-	--max-layout-width: 77.5rem;
+	--max-layout-width: min(77.5rem, 100vw - var(--gutter) - var(--gutter));
 	--gutter: var(--space-s);
 
 	--line-height-tight: 1.15;

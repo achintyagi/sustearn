@@ -1,4 +1,4 @@
-<article id="solutions">
+<article class="grid" id="solutions">
   <div
     class="product-cards-container grid"
     data-columns="1fr 2fr"
@@ -46,40 +46,40 @@
 
 <!-- product info and how it works -->
 {% for product in solutions.products %}
-  <article 
-    class="product-info" 
-    id={{ product.title | slugify }}
-  >
-    <h2 class="eyebrow">
-      {{ product.title }}
-    </h2>
-    {% if product.images %}
-      <div class="product-gallery-container">
-        <ul class="product-gallery" role="list">
-          {% for image in product.images %}
-            <li>
-              {% image
-                "./assets/images/app/" + image.url,
-                image.alt,
-                image.caption,
-                "(min-width: 48em) 40vw, 66vw"
-              %}
-            </li>
-          {% endfor %}
-        </ul>
-      </div>
-    {% endif %}
-    <div class="how-it-works">
-      <h3 class="vh">How it works:</h3>
-      <dl>
-        {% for item in product.howItWorks %}
-          <div class="grid" data-columns="1fr 2fr">
-            <dt class="heading-3">{{ item.term }} </dt>
-            <dd>{{ item.description | md | safe }}</dd>
-          </div>
+<article 
+  class="product-info grid" 
+  id={{ product.title | slugify }}
+>
+  <h2 class="eyebrow">
+    {{ product.title }}
+  </h2>
+  {% if product.images %}
+    <div class="product-gallery-container">
+      <ul class="product-gallery" role="list">
+        {% for image in product.images %}
+          <li>
+            {% image
+              "./assets/images/app/" + image.url,
+              image.alt,
+              image.caption,
+              "(min-width: 48em) 40vw, 66vw"
+            %}
+          </li>
         {% endfor %}
-      </dl>
+      </ul>
     </div>
-  </article>
+  {% endif %}
+  <div class="how-it-works">
+    <h3 class="vh">How it works:</h3>
+    <dl>
+      {% for item in product.howItWorks %}
+        <div class="grid" data-columns="1fr 2fr">
+          <dt class="heading-3">{{ item.term }} </dt>
+          <dd>{{ item.description | md | safe }}</dd>
+        </div>
+      {% endfor %}
+    </dl>
+  </div>
+</article>
 {% endfor %}
 

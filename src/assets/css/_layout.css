@@ -2,7 +2,6 @@
 	box-sizing: content-box;
 	max-inline-size: var(--max-layout-width);
 	margin-inline: auto;
-	padding-inline: var(--gutter);
 }
 
 .flow > * + * {
