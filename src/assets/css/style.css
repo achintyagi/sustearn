@@ -3,9 +3,24 @@
 @import "./_custom-media-queries.css";
 @import "./_type.css";
 @import "./_space.css";
+@import "./_color.css";
+@import "./_shadows.css";
 @import "./_global.css";
 @import "./_skip-to-main.css";
 @import "./_focus.css";
 @import "./_layout.css";
 @import "./_header.css";
 @import "./_footer.css";
+@import "./_utilities.css";
+@import "./_icon.css";
+
+@import "./_home.css";
+@import "./_hero.css";
+@import "./_solutions.css";
+@import "./_product-info.css";
+@import "./_product-gallery.css";
+@import "./_benefits.css";
+@import "./_about.css";
+
+@import "./_contact-form.css";
+@import "./_legal.css";
