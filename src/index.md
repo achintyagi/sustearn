@@ -88,7 +88,7 @@ team:
       introduction: "A pioneer in blending technology with behavioral science to drive sustainable practices"
     - name: "Anuj Batra"
       role: "Limited Cofounder and Advisor"
-      introduction: "Former CEO of Birla, offering strategic insights and industry expertise"
+      introduction: "Former CEO of Birla, offering strategic insights and extensive years of industry expertise"
     - name: "Tushar Vigh"
       role: "CFO"
       introduction: "A financial expert ensuring our sustainability initiatives align with fiscal responsibility"
