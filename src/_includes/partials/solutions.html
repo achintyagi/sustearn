@@ -10,32 +10,34 @@
     <!-- product introduction cards -->
     <ul class="product-cards grid" role="list">
       {% for product in solutions.products %}
-        <li>
+        <li class="product-card-item stack">
           {% image
             "./assets/images/" + product.card.url,
             product.card.alt,
             product.card.caption,
             "(min-width: 64em) 33vw, (min-width: 48em) 60vw, 100vw"
           %}
-          <div class="box flow">
+          <div class="product-card-content box stack">
             <h3>{{ product.title }}</h3>
-            {{ product.overview | md | safe }}
-            <div class="cluster">
-              <a 
-                class="link-w-icon cluster" 
-                href="#{{ product.title | slugify }}"
-              >
-                Know More
-                <span class="vh">about {{ product.title }}</span>
-              </a>
-              <a
-                class="link-w-icon cluster"
-                href="{{ product.downloadURL}}"
-              >
-                {% set productIcon = "partials/" + product.icon + "-icon.html" %}
-                {% include productIcon %}
-                Download
-              </a>
+            <div class="product-card-desc stack">
+              {{ product.overview | md | safe }}
+              <div class="product-card-actions cluster">
+                <a
+                  class="link-w-icon cluster"
+                  href="#{{ product.title | slugify }}"
+                >
+                  Know More
+                  <span class="vh">about {{ product.title }}</span>
+                </a>
+                <a
+                  class="link-w-icon cluster"
+                  href="{{ product.downloadURL}}"
+                >
+                  {% set productIcon = "partials/" + product.icon + "-icon.html" %}
+                  {% include productIcon %}
+                  Download
+                </a>
+              </div>
             </div>
           </div>
         </li>
