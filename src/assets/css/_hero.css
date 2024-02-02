@@ -1,0 +1,18 @@
+.hero {
+	padding-block-end: 0;
+
+	h1 {
+		font-size: var(--step-25-76);
+	}
+
+	figure {
+		grid-column: fullbleed;
+		mix-blend-mode: multiply;
+
+		img {
+			min-block-size: 25rem;
+			object-fit: cover;
+			object-position: left top;
+		}
+	}
+}
