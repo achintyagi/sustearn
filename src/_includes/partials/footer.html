@@ -1,8 +1,28 @@
 <footer
-  class="site-footer cluster"
+  class="site-footer step--1"
   role="contentinfo"
 >
-  <p>&copy;2024 {{ site.title }}. All rights reserved.</p>
-  {# <a href="#">Legal</a> #}
-	<a href="#top">Back to top ↑</a>
+  <div class="site-footer-inner cluster wrapper">
+    <!-- copyright -->
+    <p>
+      &copy;{% year %} 
+      <a class="inline-block" href="/">{{ site.title }}</a>. 
+      All rights reserved.
+    </p>
+
+    <!-- footer navigation -->
+    <nav class="cluster" aria-label="Footer">
+      {% for item in footerNav %}
+        <a href={{ item.url }}>{{ item.label }}</a>
+      {% endfor %}
+    </nav>
+
+    <!-- site credit -->
+    <p>
+      Site Credit:&nbsp;
+      <a class="inline-block" href={{ developer.site }}>
+        {{ developer.name }}
+      </a>
+    </p>
+  </div>
 </footer>
