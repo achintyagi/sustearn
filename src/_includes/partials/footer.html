@@ -2,21 +2,29 @@
   class="site-footer step--1"
   role="contentinfo"
 >
-  <div class="site-footer-inner cluster wrapper">
-    <!-- copyright -->
-    <p>
-      &copy;{% year %} 
-      <a class="inline-block" href="/">{{ site.title }}</a>. 
-      All rights reserved.
-    </p>
-
+  <div class="site-footer-upper cluster wrapper">
+    <div class="sme-accreditation cluster">
+      <p>United Nations Accredited</p>
+      <a href="https://smeclimatehub.org/">
+        <img
+          src="/assets/images/sme.png"
+          alt="SME Climate Hub Committed 2024"
+        >
+      </a>
+    </div>
     <!-- footer navigation -->
     <nav class="cluster" aria-label="Footer">
       {% for item in footerNav %}
         <a href={{ item.url }}>{{ item.label }}</a>
       {% endfor %}
     </nav>
+  </div>
 
+  <div class="site-footer-lower cluster wrapper">
+    <!-- copyright -->
+    <p>
+      &copy;{% year %} {{ site.title }}. All rights reserved.
+    </p>
     <!-- site credit -->
     <p>
       Site Credit:&nbsp;
