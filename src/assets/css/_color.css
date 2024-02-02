@@ -1,0 +1,58 @@
+:root {
+	/* Yellow */
+	/* --yellow-50: #fefce8;
+	--yellow-100: #fef9c3;
+	--yellow-200: #fef08a; */
+	--yellow-300: #fde047;
+	/* --yellow-400: #facc15;
+	--yellow-500: #eab308;
+	--yellow-600: #ca8a04;
+	--yellow-700: #a16207;
+	--yellow-800: #854d0e;
+	--yellow-900: #713f12;
+	--yellow-950: #422006; */
+
+	/* Green */
+	--green-50: #f0fdf4;
+	--green-100: #dcfce7;
+	--green-200: #bbf7d0;
+	--green-300: #86efac;
+	--green-400: #4ade80;
+	--green-500: #22c55e;
+	--green-600: #16a34a;
+	--green-700: #15803d;
+	--green-800: #166534;
+	--green-900: #14532d;
+	--green-950: #052e16;
+
+	/* Zinc */
+	--zinc-50: #fafafa;
+	--zinc-100: #f4f4f5;
+	--zinc-200: #e4e4e7;
+	--zinc-300: #d4d4d8;
+	--zinc-400: #a1a1aa;
+	--zinc-500: #71717a;
+	--zinc-600: #52525b;
+	--zinc-700: #3f3f46;
+	--zinc-800: #27272a;
+	--zinc-900: #18181b;
+	--zinc-950: #09090b;
+
+	/* Second order variables */
+	--color-neutral-text-primary: var(--zinc-700);
+	--color-neutral-text-secondary: var(--zinc-900);
+	/* --color-neutral-text-inverted: var(--zinc-50); */
+	--color-brand-text-primary: var(--green-900);
+	--color-brand-text-inverted: var(--green-50);
+	--color-neutral-bg-primary: var(--zinc-100);
+	--color-neutral-bg-secondary: var(--zinc-50);
+	--color-neutral-bg-tertiary: var(--zinc-200);
+	--color-neutral-bg-quaternary: var(--zinc-800);
+	/* --color-neutral-bg-inverted: var(--zinc-950); */
+	--color-brand-bg-primary: var(--color-brand-text-primary);
+	--color-neutral-border-primary: var(--zinc-300);
+	/* --color-neutral-border-secondary: var(--zinc-200); */
+	/* --color-neutral-border-tertiary: var(--zinc-200); */
+	--color-brand-border-primary: var(--color-brand-text-primary);
+	--color-brand-border-secondary: var(--green-700);
+}
