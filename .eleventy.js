@@ -27,6 +27,7 @@ const drafts = require("./config/plugins/drafts.js");
 const pluginImages = require("./config/plugins/images.js");
 const htmlmin = require("./config/transforms/html-min.js");
 const lightningCSS = require("./config/template-languages/css-config.js");
+const year = require("./config/shortcodes/year.js");
 
 module.exports = function (eleventyConfig) {
 	//Add Collections
@@ -59,6 +60,9 @@ module.exports = function (eleventyConfig) {
 		"stroke-width": 2,
 		"aria-hidden": "true",
 	});
+
+	//Add Shortcodes
+	eleventyConfig.addShortcode("year", year);
 
 	//Custom Template Languages
 	eleventyConfig.addPlugin(lightningCSS);
