@@ -6,7 +6,8 @@
 
 @font-face {
 	font-family: "InterDisplay";
-	src: url("/assets/fonts/InterDisplay-Medium-subset.woff2");
+	src: url("/assets/fonts/InterDisplay-Bold-subset.woff2");
+	font-weight: bold;
 	font-display: swap;
 }
 
