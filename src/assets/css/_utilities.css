@@ -1,0 +1,47 @@
+.vh {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: auto;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+	white-space: nowrap;
+}
+
+.step--1 {
+	font-size: var(--step--1);
+	line-height: var(--line-height-medium);
+	letter-spacing: var(--letter-spacing-loose);
+}
+
+.text-wrap\:balance {
+	text-wrap: balance;
+}
+
+.eyebrow {
+	padding-inline-start: var(--space-xs);
+	border-inline-start: var(--border-thick) solid
+		var(--color-brand-border-secondary);
+}
+
+.btn {
+	display: inline-block;
+	padding: var(--space-3xs) var(--space-xs);
+	background-color: var(--color-brand-bg-primary);
+	border-radius: var(--border-radius);
+	color: var(--color-brand-text-inverted);
+	text-decoration-line: none;
+	box-shadow: var(--shadow-3);
+	-webkit-font-smoothing: antialiased;
+
+	&:is(:hover, :focus-visible) {
+		scale: 0.95;
+		outline-color: var(--color-brand-border-primary);
+	}
+}
+
+.inline-block {
+	display: inline-block;
+}
