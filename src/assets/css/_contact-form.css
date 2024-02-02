@@ -1,0 +1,31 @@
+[type="email"],
+[type="tel"],
+[type="text"],
+textarea {
+	inline-size: 100%;
+	padding: var(--space-2xs);
+	background-color: var(--color-neutral-bg-secondary);
+	border: var(--border-thin) solid var(--color-neutral-border-primary);
+	border-radius: var(--border-radius-small);
+	font-size: inherit;
+}
+
+[type="submit"] {
+	text-align: center;
+}
+
+.contact-form {
+	max-inline-size: var(--measure);
+
+	> * {
+		inline-size: 100%;
+	}
+
+	label {
+		color: var(--color-neutral-text-secondary);
+	}
+}
+
+.input-container {
+	--flow-space: 0.5ex;
+}
