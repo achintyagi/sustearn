@@ -1,8 +1,16 @@
 footer {
-	border-block-start: var(--border-thickness) solid;
+	border-block-start: var(--border-thin) solid
+		var(--color-neutral-border-primary);
+}
+
+.site-footer-inner {
+	--cluster-gap: 0 1em;
 
 	a {
-		display: inline-block;
 		padding-block: var(--gutter);
+	}
+
+	nav {
+		flex-grow: 999;
 	}
 }
