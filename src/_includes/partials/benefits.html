@@ -1,0 +1,23 @@
+<!-- benefits -->
+<article class="benefits">
+  <div class="grid" data-columns="1fr 2fr">
+    <h2 class="eyebrow">{{ benefits.headline }}</h2>
+    <div class="benefit-segment-container cluster">
+      {% for segment in benefits.segments %}
+        <div class="flow">
+          {% lucide segment.icon %}
+          <h3>{{ segment.label }}</h3>
+          <ul class="flow" role="list">
+          {% for benefit in segment.benefitList %}
+            <li class="grid">
+              {% lucide "check" %}
+              {{ benefit }}
+            </li>
+          {% endfor %}
+          </ul>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</article>
+
