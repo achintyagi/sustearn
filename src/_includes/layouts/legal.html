@@ -1,0 +1,20 @@
+{%- extends "layouts/base.njk" -%} 
+
+{%- block content -%}
+  <article class="legal wrapper grid">
+    <header class="stack">
+      <h1>{{ title }}</h1>
+      <p class="eyebrow step--1">{{ lastUpdated }}</p>
+    </header>
+    <details class="toc-container flow" open>
+      <summary class="heading-3">
+        Table of Contents
+      </summary>
+      {{ content | toc | safe }}
+    </details>
+    <hr>
+    <div class="content flow">
+      {{ content | safe }}
+    </div>
+  </article>
+{%- endblock -%}
