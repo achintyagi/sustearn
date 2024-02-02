@@ -12,6 +12,7 @@
 	--border-medium: 2px;
 	--border-thick: 0.5rem;
 	--border-radius: 0.25rem;
+	--border-radius-round: 100vmax;
 
 	--transition-movement: 200ms linear;
 }
