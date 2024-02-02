@@ -31,18 +31,18 @@
 }
 
 [data-columns="1fr 1fr"] {
-	grid-template-columns: 1fr;
+	grid-template-columns: minmax(0, 1fr);
 
 	@media (--md-n-above) {
-		grid-template-columns: 1fr 1fr;
+		grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
 	}
 }
 
 [data-columns="1fr 2fr"] {
-	grid-template-columns: 1fr;
+	grid-template-columns: minmax(0, 1fr);
 
 	@media (--md-n-above) {
-		grid-template-columns: 1fr 2fr;
+		grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
 	}
 }
 

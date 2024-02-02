@@ -6,9 +6,11 @@
 		--row-gap: var(--space-l-xl);
 
 		grid-template-columns:
-			[fullbleed-start] 1fr var(--gutter) [main-start] var(--max-layout-width)
+			[fullbleed-start] minmax(0, 1fr) var(--gutter) [main-start] var(
+				--max-layout-width
+			)
 			[main-end]
-			var(--gutter) 1fr [fullbleed-end];
+			var(--gutter) minmax(0, 1fr) [fullbleed-end];
 		padding-block: var(--space-xl-2xl);
 
 		> * {
