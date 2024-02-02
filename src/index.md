@@ -7,8 +7,12 @@ hero:
   headline: "Empowering Sustainable Behaviour Through Reward Coins & Nudging"
   description: "Chart and reduce your carbon emissions with our innovative tools, fostering sustainability in both personal and corporate realms."
   cta:
-    - label: "Explore Solutions"
-      url: "#solutions"
+    label: "Explore Solutions"
+    url: "#solutions"
+  bgImage:
+    url: "hero.jpg"
+    alt: "Image featuring a laptop on the left side with the SustEarn Chrome extension open. On the right side, four mobile phones display the 'Offers' tab, the 'Browse' tab, the 'Plan' tab, and the 'Edu' tab within the SustEarn App."
+    caption: ""
 solutions:
   headline: "Our Solutions"
   products:
@@ -77,7 +81,7 @@ benefits:
         - Sustainable Dating
         - Educational and Engaging Content
 team:
-  headline: "Our Team"
+  headline: "About Us"
   memberList:
     - name: "Achin Tyagi"
       role: "Founder, CTO, Behavioral Scientist"

@@ -1,9 +1,21 @@
-<div>
-  <h1>{{ hero.headline }}</h1>
-  <p>{{ hero.description }}</p>
-  <div>
-    {% for item in hero.cta %}
-      <a href="{{ item.url }}">{{ item.label }}</a>
-    {% endfor %}
+<div class="hero">
+  <div class="flow">
+    <h1>{{ hero.headline }}</h1>
+    <p class="text-wrap:balance">
+      {{ hero.description }}
+    </p>
+    <a 
+      class="btn"
+      href="{{ hero.cta.url }}" 
+    >
+      {{ hero.cta.label }}
+    </a>
   </div>
+  {% image
+    "./assets/images/" + hero.bgImage.url,
+    hero.bgImage.alt,
+    hero.bgImage.caption,
+    "100vw",
+    "eager"
+  %}
 </div>
