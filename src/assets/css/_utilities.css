@@ -30,7 +30,7 @@
 	display: inline-block;
 	padding: var(--space-3xs) var(--space-xs);
 	background-color: var(--color-brand-bg-primary);
-	border-radius: var(--border-radius);
+	border-radius: var(--border-radius-small);
 	color: var(--color-brand-text-inverted);
 	text-decoration-line: none;
 	box-shadow: var(--shadow-3);

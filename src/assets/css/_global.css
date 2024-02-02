@@ -11,8 +11,9 @@
 	--border-thin: 1px;
 	--border-medium: 2px;
 	--border-thick: 0.5rem;
-	--border-radius: 0.25rem;
-	--border-radius-round: 100vmax;
+	--border-radius-small: 0.25rem;
+	--border-radius-medium: 1rem;
+	--border-radius-max: 100vmax;
 
 	--icon-gap: 0.375em;
 
@@ -81,7 +82,7 @@ li {
 
 a,
 button {
-	border-radius: var(--border-radius);
+	border-radius: var(--border-radius-small);
 	color: var(--color-brand-text-primary);
 	-webkit-tap-highlight-color: transparent;
 	transition-property: background-color, color, scale;

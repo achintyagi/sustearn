@@ -34,7 +34,7 @@
 		inline-size: 100%;
 		aspect-ratio: 221/240;
 		background-color: var(--color-neutral-bg-primary);
-		border-radius: var(--border-radius);
+		border-radius: var(--border-radius-small);
 	}
 
 	&:focus-visible {
