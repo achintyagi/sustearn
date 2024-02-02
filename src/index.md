@@ -4,68 +4,80 @@ layout: "layouts/home.html"
 permalink: "/"
 
 hero:
-  headline: "Empowering Sustainable Behaviour Through Rewards and Nudging"
-  description: "Discover our dual solutions for individuals and businesses. Chart and reduce carbon emissions with our innovative tools, fostering sustainability in both personal and corporate realms. Start your sustainable journey today."
+  headline: "Empowering Sustainable Behaviour Through Reward Coins & Nudging"
+  description: "Chart and reduce your carbon emissions with our innovative tools, fostering sustainability in both personal and corporate realms."
   cta:
     - label: "Explore Solutions"
       url: "#solutions"
-    - label: "Contact Us"
-      url: "/contact"
 solutions:
   headline: "Our Solutions"
   products:
-    - title: "Sustearn App"
+    - title: "SustEarn App"
       overview: "Revolutionize sustainable living with our app. Seamlessly integrate your green habits with our app. Earn reward coins, measure and reduce your carbon footprint, and join a community committed to environmental responsibility."
+      downloadURL: "https://apps.apple.com/in/app/slae/id1666982947"
+      icon: "apple"
+      card:
+        url: "app.png"
+        alt: "Image featuring a mobile phone with the SustEarn app open, displaying the 'Offers' tab."
+        caption: ""
       howItWorks:
         - term: "Explore Sustainable Features"
-          description: "Discover the carbon reduced sustainable education tab (edu), Generative AI and measurable sustainable task tab (To Do), and sustainable friends nudging. Dive into engaging green web browsing and green SaaS browsing, complete eco-friendly activities, challenge and habits (Do good tab)."
+          description: "Discover the *carbon reduced* sustainable education tab (edu), *Generative AI* and measurable sustainable task tab (To Do), and sustainable friends nudging. Dive into engaging green web browsing and *green SaaS browsing*, complete eco-friendly activities, challenge and habits (Do good tab)."
         - term: "Earn Reward Coins For Reducing Your Intent-Action Gap"
           description: "Every intent action earns you reward coins. Track your progress and see the environmental impact of your choices. Redeem coins for exclusive e-commerce coupons, configurable HR reward systems and green partners turning your sustainable lifestyle into tangible rewards."
         - term: "Join the Community"
           description: "Connect with a thriving community passionate about sustainability."
       images:
         - url: "offers.png"
-          alt: "This is an alt"
-          caption: "This is a caption"
+          alt: ""
+          caption: "The 'Offers' tab, showcasing available deals"
         - url: "browse.png"
-          alt: "alt"
-          caption: "Caption"
+          alt: ""
+          caption: "The 'Browse' tab, enabling eco-friendly browsing"
         - url: "plan.png"
-          alt: "alt"
-          caption: "Caption"
+          alt: ""
+          caption: "The 'Plan' tab, where daily tasks can be added"
         - url: "edu.png"
-          alt: "alt"
-          caption: "Caption"
+          alt: ""
+          caption: "The 'Edu' tab, highlighting educational content"
         - url: "friends.png"
-          alt: "alt"
-          caption: "Caption"
-    - title: "Sustearn Browser Extension"
-      overview: "Elevate your corporate sustainability with our powerful web browser extension. Take control of Scope 1, Scope 2 and Scope 3 emissions by measuring your organization's browsing activities. Monitor, analyze, and mitigate your carbon footprint effortlessly."
+          alt: ""
+          caption: "'View Friends', for connecting with the community"
+    - title: "SustEarn Extension"
+      overview: "Elevate your sustainability with our powerful *browser extension*. Take control of Scope 1, 2 and 3 emissions by measuring your organization's browsing activities. Monitor, analyze, and mitigate your carbon footprint effortlessly."
+      downloadURL: "https://chromewebstore.google.com/detail/sustearn/nmailnocnmpkjmliefcepdnfefefeggm"
+      icon: "chrome"
+      card:
+        url: "extension.png"
+        alt: "Image featuring a laptop with the SustEarn Chrome browser extension open, displaying the extension's UI."
+        caption: ""
       howItWorks:
         - term: "Install and Activate"
-          description: "Easily install the browser extension across your organization. Activate the tool to start measuring and reducing Scope 1, Scope 2 and Scope 3 emissions and earn rewards coins that you can redeem. The extension seamlessly integrates with your browsing experience, providing real-time insights."
+          description: "Easily install the *browser extension* across your organization. Activate the tool to start measuring and reducing Scope 1, 2 and 3 emissions and earn rewards coins that you can redeem. The extension seamlessly integrates with your browsing experience, providing real-time insights."
         - term: "Monitor Carbon Footprint"
           description: "Gain visibility into your company's online activities. The extension charts page emissions, allowing you to monitor and analyze the carbon footprint of web interactions. Identify opportunities for reduction and sustainability improvements."
         - term: "Mitigate, Optimize and Earn Coins"
-          description: "Take proactive steps to mitigate carbon emissions for reducing aasthma and COPD cases. Use the extension's insights to optimize browsing activities, reducing environmental impact. Lock your browser CO<sub>2</sub> emissions the same you way you lock your desktop before leaving your desktop. Our tool empowers businesses to align with sustainable practices and contribute to global carbon reduction goals."
+          description: "Take proactive steps to mitigate carbon emissions for *reducing aasthma and COPD* cases. Use the extension's insights to optimize browsing activities, reducing environmental impact. Lock your browser CO₂ emissions the same you way you lock your desktop before leaving your desktop. Our tool empowers businesses to align with sustainable practices and contribute to global carbon reduction goals."
         - term: "Corporate Reporting"
           description: "Leverage detailed reports generated by the extension for comprehensive corporate sustainability reporting. Demonstrate your commitment to environmental responsibility with accurate and transparent data on your organization's online footprint."
 benefits:
   headline: "Benefits"
   segments:
     - label: "For Businesses:"
+      icon: "briefcase"
       benefitList:
         - Enhanced Corporate Reputation
         - Cost Savings through Efficiency
         - Comprehensive Carbon Reporting
-        - Employee Engagement and Morale Through Behavioural Nudging and Rewards
+        - Employee Engagement and Morale
     - label: "For Individuals:"
+      icon: "users"
       benefitList:
         - Tangible Rewards for Green Actions
         - Sustainable Dating
         - Educational and Engaging Content
 team:
-  headline: "About Us"
+  headline: "Our Team"
   memberList:
     - name: "Achin Tyagi"
       role: "Founder, CTO, Behavioral Scientist"
@@ -78,7 +90,7 @@ team:
       introduction: "A financial expert ensuring our sustainability initiatives align with fiscal responsibility"
   mission:
     label: "Our Mission"
-    description: "Our mission is to empower businesses, organizations, and individuals by providing comprehensive sustainability measurements and actionable mitigations. Through behavioral change nudging and a rewards system, we aim to assist them in achieving optimal sustainable practices while fostering a culture of environmental responsibility and offering tangible incentives for their efforts."
+    description: "Our mission is to empower businesses, organizations, and individuals by providing comprehensive sustainability measurements and actionable mitigations. Through behavioral change nudging and a rewards system, we aim to empower everyone."
   belief:
     label: "Our Belief"
     description: "We believe that behavioral nudging and monetary rewards are potent tools for driving sustainability. By influencing behaviors and providing incentives for adopting environmentally friendly practices, we aim to make sustainability a natural and rewarding part of daily life."
