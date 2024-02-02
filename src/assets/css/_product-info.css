@@ -1,0 +1,11 @@
+.product-info {
+	dl > * + * {
+		padding-block-start: 1em;
+		border-block-start: var(--border-thin) dashed
+			var(--color-neutral-border-primary);
+	}
+
+	dl > *:not(:last-child) {
+		padding-block-end: 1em;
+	}
+}
