@@ -1,14 +1,14 @@
 [
 	{
-		"type": "App",
+		"title": "SustEarn App",
 		"label": "Download App",
 		"url": "https://apps.apple.com/in/app/slae/id1666982947",
-		"icon": "download"
+		"icon": "apple"
 	},
 	{
-		"type": "Extension",
+		"title": "SustEarn Extension",
 		"label": "Download Extension",
-		"url": "#",
-		"icon": "download"
+		"url": "https://chromewebstore.google.com/detail/sustearn/nmailnocnmpkjmliefcepdnfefefeggm",
+		"icon": "chrome"
 	}
 ]
