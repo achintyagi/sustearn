@@ -1,30 +1,22 @@
 .skip-to-main {
-	display: block;
 	position: absolute;
-	inset-block-start: 1rem;
-	inset-inline-start: 1rem;
-	padding: 0.5em 1em;
-
-	background-color: canvasText;
-	color: canvas;
-	line-height: 1;
-	outline-offset: 0;
+	inset-block-start: 0;
+	inset-inline-start: var(--gutter);
 
 	opacity: 0;
 	transform: translateY(-100%);
 	transition: transform 150ms ease;
 	z-index: 999;
-	-webkit-font-smoothing: antialiased;
-
-	@media (--OSdark) {
-		-webkit-font-smoothing: auto;
-	}
 }
 
 .skip-to-main:focus-visible {
 	opacity: 1;
 	transform: translate(0);
+	inset-block-start: var(--gutter);
+	outline-color: var(--color-brand-border-primary);
 
 	/* this needs to be added  to override a style in the global styles */
-	transition: transform 150ms ease;
+	/* transition: transform 150ms ease; */
+	transition-property: transform, inset-block-start;
+	transition-duration: 150ms;
 }
