@@ -1,22 +1,37 @@
 {% set navPages = collections.pages | eleventyNavigation %}
 
-<nav id="mainnav">
+<nav id="mainnav" aria-label="Primary">
   <div class="mainnav-list-container">
     <ul class="mainnav-list" role="list">      
-      {% for item in productInfo %}
-        <li>
-          <a class="cluster" href={{ item.url }}>
-            {% lucide item.icon %} {{ item.label }}
-          </a>
-        </li>
-      {% endfor %}
-      {% for entry in navPages %}
+      {# {% for entry in navPages %}
         <li>
           <a 
             href="{{ entry.url }}" 
             {{ helpers.getLinkActiveState(entry.url, page.url) | safe }} 
           >
             {{ entry.title }}
+          </a>
+        </li>
+      {% endfor %} #}
+      <li>
+        <a 
+          class="link-w-icon cluster"
+          href="/contact/" 
+          {{ helpers.getLinkActiveState("/contact/", page.url) | safe }} 
+        >
+          {% lucide "message-square" %}
+          Contact
+        </a>
+      </li>
+      {% for item in productInfo %}
+        <li>
+          <a 
+            class="link-w-icon cluster" 
+            href={{ item.url }}
+          >
+            {% set itemIcon = "partials/" + item.icon + "-icon.html" %}
+            {% include itemIcon %}
+            {{ item.label }}
           </a>
         </li>
       {% endfor %}
