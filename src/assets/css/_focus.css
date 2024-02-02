@@ -12,16 +12,16 @@
 	I've implemented a custom focus ring for these links
 	so the default is not needed
 */
-:is(#mainnav, .site-footer) :is(a, button) {
+#mainnav :is(a, button) {
 	position: relative;
 }
 
-:is(#mainnav, .site-footer) :is(a, button):focus-visible {
+#mainnav :is(a, button):focus-visible {
 	outline: none;
 }
 
 /* custom focus ring */
-:where(#mainnav, .site-footer) :is(a, button):before {
+#mainnav :is(a, button):before {
 	content: "";
 	position: absolute;
 	inset: var(--gutter) calc(-1 / 4 * var(--gutter));
@@ -29,6 +29,6 @@
 	pointer-events: none;
 }
 
-:is(#mainnav, .site-footer) :is(a, button):focus-visible:before {
+#mainnav :is(a, button):focus-visible:before {
 	outline: var(--border-medium) solid;
 }
