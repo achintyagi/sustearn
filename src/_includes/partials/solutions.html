@@ -1,59 +1,85 @@
 <article id="solutions">
-  <h2>{{ solutions.headline }}</h2>
+  <div
+    class="product-cards-container grid"
+    data-columns="1fr 2fr"
+  >
+    <h2 class="eyebrow">
+      {{ solutions.headline }}
+    </h2>
 
-  <!-- product intro cards -->
-  <div>
-    {% for product in solutions.products %}
-      <div>
-        <p>{{ product.title }}</p>
-        <p>{{ product.overview }}</p>
-        <a href="#{{ product.title | slugify }}">
-          Know More <span class="vh">about {{ product.title }}</span>
-        </a>
-      </div>
-    {% endfor %}
-  </div>
-
-  <!-- product info and how it works -->
-  {% for product in solutions.products %}
-    <div id={{ product.title | slugify }}>
-      <h3>{{ product.title }}</h3>
-      <dl>
-        {% for item in product.howItWorks %}
-          <div>
-            <dt>{{ item.term }} </dt>
-            <dd>{{ item.description | safe }}</dd>
+    <!-- product introduction cards -->
+    <ul class="product-cards grid" role="list">
+      {% for product in solutions.products %}
+        <li>
+          {% image
+            "./assets/images/" + product.card.url,
+            product.card.alt,
+            product.card.caption,
+            "(min-width: 64em) 33vw, (min-width: 48em) 60vw, 100vw"
+          %}
+          <div class="box flow">
+            <h3>{{ product.title }}</h3>
+            {{ product.overview | md | safe }}
+            <div class="cluster">
+              <a 
+                class="link-w-icon cluster" 
+                href="#{{ product.title | slugify }}"
+              >
+                Know More
+                <span class="vh">about {{ product.title }}</span>
+              </a>
+              <a
+                class="link-w-icon cluster"
+                href="{{ product.downloadURL}}"
+              >
+                {% set productIcon = "partials/" + product.icon + "-icon.html" %}
+                {% include productIcon %}
+                Download
+              </a>
+            </div>
           </div>
-        {% endfor %}
-      </dl>
-      {% if product.images %}
-        <ul role="list">
-          <!-- TODO:update image size -->
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</article>
+
+<!-- product info and how it works -->
+{% for product in solutions.products %}
+  <article 
+    class="product-info" 
+    id={{ product.title | slugify }}
+  >
+    <h2 class="eyebrow">
+      {{ product.title }}
+    </h2>
+    {% if product.images %}
+      <div class="product-gallery-container">
+        <ul class="product-gallery" role="list">
           {% for image in product.images %}
             <li>
               {% image
-                "./assets/images/" + image.url,
+                "./assets/images/app/" + image.url,
                 image.alt,
                 image.caption,
-                "100vw"
+                "(min-width: 48em) 40vw, 66vw"
               %}
             </li>
           {% endfor %}
         </ul>
-      {% endif %}
-    </div>    
-  {% endfor %}
+      </div>
+    {% endif %}
+    <div class="how-it-works">
+      <h3 class="vh">How it works:</h3>
+      <dl>
+        {% for item in product.howItWorks %}
+          <div class="grid" data-columns="1fr 2fr">
+            <dt class="heading-3">{{ item.term }} </dt>
+            <dd>{{ item.description | md | safe }}</dd>
+          </div>
+        {% endfor %}
+      </dl>
+    </div>
+  </article>
+{% endfor %}
 
-  <!-- benefits -->
-  <div>
-    <h3>{{ benefits.headline }}</h3>
-    {% for segment in benefits.segments %}
-      <p>{{ segment.label }}</p>
-      <ul>
-      {% for benefit in segment.benefitList %}
-        <li>{{ benefit }}</li>
-      {% endfor %}
-      </ul>
-    {% endfor %}
-  </div>
-</article>
