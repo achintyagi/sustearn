@@ -10,6 +10,7 @@
 const directoryOutputPlugin = require("@11ty/eleventy-plugin-directory-output");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const lucideIcons = require("@grimlink/eleventy-plugin-lucide-icons");
+const pluginTOC = require("eleventy-plugin-nesting-toc");
 
 // Importing from config
 const getPages = require("./config/collections/pages.js");
@@ -49,6 +50,7 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addPlugin(htmlmin);
 	eleventyConfig.addPlugin(drafts);
 	eleventyConfig.addPlugin(pluginImages);
+	eleventyConfig.addPlugin(pluginTOC, { tags: ["h2", "h3"] });
 	eleventyConfig.addPlugin(lucideIcons, {
 		class: "icon",
 		width: "1em",
@@ -62,6 +64,7 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addPlugin(lightningCSS);
 
 	//Passthrough copy
+	eleventyConfig.addPassthroughCopy("./src/assets/images");
 	eleventyConfig.addPassthroughCopy("./src/assets/fonts");
 	eleventyConfig.addPassthroughCopy("./src/assets/scripts");
 	eleventyConfig.addPassthroughCopy({ "./src/assets/favicons": "/" });

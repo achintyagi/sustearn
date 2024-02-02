@@ -1,9 +1,13 @@
 const path = require("path");
+const markdownItAnchor = require("markdown-it-anchor");
+const markdownItAttrs = require("markdown-it-attrs");
 const markdownItFootnote = require("markdown-it-footnote");
 
 module.exports = function (eleventyConfig) {
 	// Customize Markdown library settings:
 	eleventyConfig.amendLibrary("md", (mdLib) => {
+		mdLib.use(markdownItAnchor);
+		mdLib.use(markdownItAttrs);
 		mdLib.use(markdownItFootnote);
 
 		mdLib.renderer.rules.footnote_caption = (tokens, idx) => {
