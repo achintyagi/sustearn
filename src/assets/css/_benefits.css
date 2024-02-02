@@ -1,0 +1,29 @@
+.benefits {
+	> * {
+		--column-gap: var(--space-l-xl);
+	}
+
+	h2 {
+		align-self: start;
+	}
+}
+
+.benefit-segment-container {
+	--cluster-gap: var(--space-l-xl);
+	--cluster-horizontal-alignment: space-between;
+	--cluster-vertical-alignment: start;
+	--flow-space: 1ex;
+
+	li {
+		--row-gap: 0;
+		--column-gap: var(--icon-gap);
+		grid-template-columns: auto 1fr;
+		align-items: center;
+
+		svg {
+			inline-size: 1em;
+			block-size: 1em;
+			stroke: var(--color-brand-border-secondary);
+		}
+	}
+}
