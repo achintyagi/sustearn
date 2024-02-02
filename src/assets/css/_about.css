@@ -1,0 +1,30 @@
+.team-member-list {
+	--row-gap: var(--gutter);
+	--column-gap: var(--gutter);
+	--grid-min-item-size: min(21rem, var(--max-layout-width));
+
+	grid-template-columns: repeat(
+		var(--grid-placement, auto-fill),
+		minmax(var(--grid-min-item-size, 16rem), 1fr)
+	);
+}
+
+.team-member-item {
+	border-radius: var(--border-radius-medium);
+	box-shadow: var(--shadow-1);
+}
+
+.member-role {
+	--flow-space: 0.5ex;
+}
+
+.member-introduction {
+	padding-block-start: 1em;
+	border-block-start: var(--border-thin) dashed
+		var(--color-neutral-border-primary);
+}
+
+.mission-belief-container {
+	--column-gap: var(--space-l-xl);
+	/* --flow-space: 0.5ex; */
+}
