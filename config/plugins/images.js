@@ -33,20 +33,11 @@ module.exports = function (eleventyConfig) {
 			}
 
 			let metadata = await eleventyImage(input, {
-				widths: [480, 768, 1280, null],
+				widths: [640, 960, 1280, 1600, null],
 				formats,
 				urlPath: "/assets/images/scaled",
 				outputDir: "public/assets/images/scaled",
 			});
-
-			// let imageAttributes = {
-			// 	alt,
-			// 	sizes,
-			// 	loading: loading || "lazy",
-			// 	decoding: "async",
-			// };
-
-			// return eleventyImage.generateHTML(metadata, imageAttributes);
 
 			let lowsrc = metadata.jpeg[metadata.jpeg.length - 1];
 
@@ -71,7 +62,7 @@ module.exports = function (eleventyConfig) {
 								loading = "${loading || `lazy`}"
 								decoding="async">
 						</picture>
-						${caption ? `<figcaption>${caption}</figcaption>` : ``}
+						${caption ? `<figcaption class="step--1">${caption}</figcaption>` : ``}
 				</figure>
 				`,
 				{ collapseWhitespace: true }
