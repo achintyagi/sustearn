@@ -1,13 +1,15 @@
 
-<header class="site-head cluster">
-  <a
-  class="site-logo"
-  href="/"
-  {{ helpers.getLinkActiveState("/", page.url) | safe }} 
-  >
-    {{ site.title }}
-  </a>
-
-  <!-- site navigation -->
-  {% include "partials/main-nav.html" %}
+<header class="site-head">
+  <div class="cluster wrapper">
+    <a
+      class="site-logo"
+      href="/"
+      aria-label={{ site.title }}
+      {{ helpers.getLinkActiveState("/", page.url) | safe }}
+    >
+      <img src="/assets/images/logo.png" alt="">
+    </a>
+    <!-- site navigation -->
+    {% include "partials/main-nav.html" %}
+  </div>
 </header>
