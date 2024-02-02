@@ -1,0 +1,7 @@
+.link-w-icon {
+	--cluster-gap: var(--icon-gap);
+}
+
+a .bi-apple {
+	transform: translateY(-2px);
+}
