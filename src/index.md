@@ -18,8 +18,13 @@ solutions:
   products:
     - title: "SustEarn App"
       overview: "Revolutionize sustainable living with our app. Seamlessly integrate your green habits with our app. Earn reward coins, measure and reduce your carbon footprint, and join a community committed to environmental responsibility."
-      downloadURL: "https://apps.apple.com/in/app/slae/id1666982947"
-      icon: "apple"
+      downloadLinks:
+        - url: "https://play.google.com/store/apps/details?id=com.sustliveandearn"
+          icon: "play"
+          hiddenText: "on Google Play"
+        - url: "https://apps.apple.com/in/app/slae/id1666982947"
+          icon: "apple"
+          hiddenText: "on the AppStore"
       card:
         url: "app.png"
         alt: "Image featuring a mobile phone with the SustEarn app open, displaying the 'Offers' tab."
@@ -49,8 +54,10 @@ solutions:
           caption: "Connect with the community"
     - title: "SustEarn Extension"
       overview: "Elevate your sustainability with our powerful *browser extension*. Take control of Scope 1, 2 and 3 emissions by measuring your organization's browsing activities. Monitor, analyze, and mitigate your carbon footprint effortlessly."
-      downloadURL: "https://chromewebstore.google.com/detail/sustearn/nmailnocnmpkjmliefcepdnfefefeggm"
-      icon: "chrome"
+      downloadLinks:
+        - url: "https://chromewebstore.google.com/detail/sustearn/nmailnocnmpkjmliefcepdnfefefeggm"
+          icon: "chrome"
+          hiddenText: "Chrome Web Extension"
       card:
         url: "extension.png"
         alt: "Image featuring a laptop with the SustEarn Chrome browser extension open, displaying the extension's UI."

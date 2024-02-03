@@ -38,9 +38,13 @@
 .product-card-content {
 	--stack-gap: 1em;
 	flex-grow: 999;
+	padding-block-start: var(--box-padding);
+	padding-inline: var(--box-padding);
+	background-color: var(--color-neutral-bg-secondary);
 }
 
 .product-card-desc {
+	--stack-gap: var(--box-padding);
 	--stack-horizontal-alignment: stretch;
 	--stack-vertical-alignment: space-between;
 	flex-grow: 999;
@@ -48,7 +52,11 @@
 
 .product-card-actions {
 	--cluster-horizontal-alignment: space-between;
-	border-block-start: var(--border-thin) solid
+	border-block-start: var(--border-thin) dashed
 		var(--color-neutral-border-primary);
-	padding-block-start: 1em;
+
+	a {
+		padding-block: var(--box-padding);
+		line-height: 1;
+	}
 }

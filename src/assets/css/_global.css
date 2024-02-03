@@ -16,6 +16,7 @@
 	--border-radius-max: 100vmax;
 
 	--icon-gap: 0.375em;
+	--box-padding: var(--space-s-m);
 
 	--transition-fade: 222ms ease;
 	--transition-movement: 222ms linear;

@@ -47,6 +47,7 @@
 }
 
 .box {
-	padding: var(--space-s-m);
+	padding: var(--box-padding);
 	background-color: var(--color-neutral-bg-secondary);
+	box-shadow: var(--shadow-1);
 }
