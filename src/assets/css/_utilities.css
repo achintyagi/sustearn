@@ -37,7 +37,7 @@
 	-webkit-font-smoothing: antialiased;
 
 	&:is(:hover, :focus-visible) {
-		scale: 0.95;
+		background-color: var(--color-neutral-text-secondary);
 		outline-color: var(--color-brand-border-primary);
 	}
 }

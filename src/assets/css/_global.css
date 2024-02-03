@@ -106,7 +106,7 @@ button {
 	border-radius: var(--border-radius-small);
 	color: var(--color-brand-text-primary);
 	-webkit-tap-highlight-color: transparent;
-	transition-property: background-color, color, scale;
+	transition-property: background-color, color;
 	transition-duration: 333ms;
 }
 
