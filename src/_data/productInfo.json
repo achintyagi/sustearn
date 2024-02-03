@@ -1,13 +1,19 @@
 [
 	{
-		"title": "SustEarn App",
-		"label": "Download App",
+		"title": "SustEarn Android App",
+		"label": "Download on Google Play",
+		"url": "https://play.google.com/store/apps/details?id=com.sustliveandearn",
+		"icon": "play"
+	},
+	{
+		"title": "SustEarn iOS App",
+		"label": "Download on the AppStore",
 		"url": "https://apps.apple.com/in/app/slae/id1666982947",
 		"icon": "apple"
 	},
 	{
 		"title": "SustEarn Extension",
-		"label": "Download Extension",
+		"label": "Download Chrome Web Extension",
 		"url": "https://chromewebstore.google.com/detail/sustearn/nmailnocnmpkjmliefcepdnfefefeggm",
 		"icon": "chrome"
 	}
