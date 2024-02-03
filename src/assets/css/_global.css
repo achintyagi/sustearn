@@ -17,15 +17,36 @@
 
 	--icon-gap: 0.375em;
 
-	--transition-movement: 200ms linear;
+	--transition-fade: 222ms ease;
+	--transition-movement: 222ms linear;
+	--transition-bounce: 500ms cubic-bezier(0.5, 0.05, 0.2, 1.5);
 }
 
 body {
+	position: relative;
 	background-color: var(--color-neutral-bg-primary);
 	color: var(--color-neutral-text-primary);
 	font-family: var(--font-plain);
 	font-size: var(--step-0);
 	line-height: var(--line-height-standard);
+}
+
+body:after {
+	content: "";
+	position: fixed;
+	inset: 0;
+	background: hsl(0deg 0% 0% / 10%);
+	opacity: 0;
+	pointer-events: none;
+	transition: var(--transition-fade);
+
+	@supports (-webkit-backdrop-filter: blur(4px)) {
+		-webkit-backdrop-filter: blur(var(--space-m)) grayscale(1);
+	}
+
+	@supports (backdrop-filter: blur(4px)) {
+		backdrop-filter: blur(var(--space-m)) grayscale(1);
+	}
 }
 
 main > * {
