@@ -20,10 +20,6 @@ textarea {
 	> * {
 		inline-size: 100%;
 	}
-
-	label {
-		color: var(--color-neutral-text-secondary);
-	}
 }
 
 .input-container {

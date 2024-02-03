@@ -1,0 +1,32 @@
+.contact {
+	.grid {
+		--grid-gap: var(--space-l-xl);
+		grid-template-columns: 1fr;
+
+		@media (--md-n-above) {
+			grid-template-columns: 1fr auto 1fr;
+
+			hr {
+				inline-size: var(--border-thin);
+				block-size: 100%;
+			}
+		}
+	}
+
+	.heading-4 {
+		--cluster-gap: var(--icon-gap);
+	}
+}
+
+.additional-channels {
+	--stack-gap: var(--space-m-l);
+	--stack-horizontal-alignment: stretch;
+
+	> * {
+		--flow-space: 1ex;
+	}
+
+	svg {
+		stroke: var(--color-brand-border-secondary);
+	}
+}
