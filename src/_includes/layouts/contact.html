@@ -1,9 +1,55 @@
 {%- extends "layouts/base.njk" -%} 
 
 {%- block content -%}
-  <div class="wrapper flow">
-    <h1>{{ title }}</h1>
-    {{ content | safe }}
-    {% include "partials/contact-form.html" %}
+<div class="contact wrapper flow">
+  <h1>{{ title }}</h1>
+  <div class="grid">
+    <div class="flow">
+      <p>{{ formCallout }}</p>
+      {% include "partials/contact-form.html" %}
+    </div>
+    <hr>
+    <div class="additional-channels stack">
+      {{ content | safe }}
+      <!-- mobile -->
+      <div class="flow">
+        <h2 class="heading-4 cluster">
+          {% lucide site.phone.icon %}
+          {{ site.phone.label }}
+        </h2>
+        <a class="inline-block" href={{ site.phone.url }}>
+          {{ site.phone.display }}
+        </a>
+      </div>
+    
+      <!-- email -->
+      <div class="flow">
+        <h2 class="heading-4 cluster">
+          {% lucide site.email.icon %}
+          {{ site.email.label }}
+        </h2>
+        <a class="inline-block" href={{ site.email.url }}>
+          {{ site.email.display }}
+        </a>
+      </div>
+    
+      <!-- address -->
+      <div class="flow">
+        <h2 class="heading-4 cluster">
+          {% lucide "map-pin" %}
+          Address:
+        </h2>
+        <ul class="flow">
+          {% for item in site.address %}
+            <li>
+              <address>
+                {{ item.location }}
+              </address>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
   </div>
+</div>
 {%- endblock -%}
