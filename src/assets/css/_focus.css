@@ -12,16 +12,19 @@
 	I've implemented a custom focus ring for these links
 	so the default is not needed
 */
-#mainnav :is(a, button) {
+#mainnav :is(a, button),
+.product-card-actions a {
 	position: relative;
 }
 
-#mainnav :is(a, button):focus-visible {
+#mainnav :is(a, button):focus-visible,
+.product-card-actions a:focus-visible {
 	outline: none;
 }
 
 /* custom focus ring */
-#mainnav :is(a, button):before {
+#mainnav :is(a, button):before,
+.product-card-actions a:before {
 	content: "";
 	position: absolute;
 	inset: var(--gutter) calc(-1 / 4 * var(--gutter));
@@ -29,6 +32,11 @@
 	pointer-events: none;
 }
 
-#mainnav :is(a, button):focus-visible:before {
+.product-card-actions a:before {
+	inset: calc(1 / 1.25 * var(--box-padding)) calc(-1 / 4 * var(--box-padding));
+}
+
+#mainnav :is(a, button):focus-visible:before,
+.product-card-actions a:focus-visible:before {
 	outline: var(--border-medium) solid;
 }

@@ -5,9 +5,14 @@ textarea {
 	inline-size: 100%;
 	padding: var(--space-2xs);
 	background-color: var(--color-neutral-bg-secondary);
-	border: var(--border-thin) solid var(--color-neutral-border-primary);
+	border: none;
+	outline: var(--border-thin) solid var(--color-neutral-border-primary);
 	border-radius: var(--border-radius-small);
 	font-size: inherit;
+
+	&:focus-visible {
+		outline: var(--border-medium) solid;
+	}
 }
 
 [type="submit"] {
