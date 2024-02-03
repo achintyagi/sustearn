@@ -2,5 +2,27 @@
 	"title": "SustEarn",
 	"description": "SustEarn is a platform that empowers sustainable behaviour through reward coins and nudging",
 	"url": "https://slae.app",
-	"colorScheme": "light"
+	"colorScheme": "light",
+	"phone": {
+		"label": "Call Us:",
+		"display": "+91-8369935706",
+		"url": "tel:+918369935706",
+		"icon": "phone"
+	},
+	"email": {
+		"label": "Email Us:",
+		"display": "achintyagi@yahoo.com",
+		"url": "mailto:achintyagi@yahoo.com",
+		"icon": "mail"
+	},
+	"address": [
+		{
+			"label": "Noida",
+			"location": "2506, Tower 6, Lotus Panache, Sector 110 Noida"
+		},
+		{
+			"label": "Mumbai",
+			"location": "404 - B, Videocon Towers, Thakur Complex, Kandivali East, Mumbai - 400101"
+		}
+	]
 }
