@@ -92,7 +92,7 @@
 	gap: var(--gutter);
 }
 
-.mainnav-list > :first-child:after {
+.mainnav-list > :nth-child(2):after {
 	content: "|";
 	margin-inline-start: var(--gutter);
 	color: var(--color-neutral-border-primary);
@@ -172,7 +172,7 @@
 		}
 	}
 
-	.mainnav-list > :first-child:after {
+	.mainnav-list > :nth-child(2):after {
 		display: none;
 	}
 }

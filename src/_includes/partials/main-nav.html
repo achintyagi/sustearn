@@ -16,6 +16,16 @@
       <li>
         <a 
           class="link-w-icon cluster"
+          href="/" 
+          {{ helpers.getLinkActiveState("/contact/", page.url) | safe }} 
+        >
+          {% lucide "home" %}
+          Home
+        </a>
+      </li>
+      <li>
+        <a 
+          class="link-w-icon cluster"
           href="/contact/" 
           {{ helpers.getLinkActiveState("/contact/", page.url) | safe }} 
         >
