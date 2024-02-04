@@ -30,7 +30,7 @@
 	--stack-gap: 0;
 
 	align-self: stretch;
-	border-radius: var(--border-radius-medium);
+	border-radius: var(--border-radius-small);
 	box-shadow: var(--shadow-2);
 	overflow: hidden;
 }

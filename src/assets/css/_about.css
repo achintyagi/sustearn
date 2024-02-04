@@ -10,7 +10,7 @@
 }
 
 .team-member-item {
-	border-radius: var(--border-radius-medium);
+	border-radius: var(--border-radius-small);
 }
 
 .member-role {
