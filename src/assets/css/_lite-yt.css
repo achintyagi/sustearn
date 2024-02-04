@@ -1,4 +1,18 @@
-lite-youtube {
-	border: var(--border-thick) solid black;
+lite-youtube:defined {
 	border-radius: var(--border-radius-medium);
+	border: var(--border-thick) solid black;
+}
+
+.lite-youtube-fallback {
+	--stack-horizontal-alignment: center;
+	--stack-vertical-alignment: center;
+
+	min-inline-size: 30ch;
+	aspect-ratio: 16 / 9; /* matches YouTube player */
+	color: #b91c1c;
+	text-align: center;
+}
+
+.lite-youtube-fallback:focus-visible {
+	outline-offset: calc(-1 * var(--border-medium));
 }

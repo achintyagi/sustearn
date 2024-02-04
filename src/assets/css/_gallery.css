@@ -39,34 +39,50 @@
 }
 
 .gallery > li {
-	position: relative;
 	flex-basis: auto;
-	filter: drop-shadow(
-		0.5rem 0.25rem 0.25rem var(--color-neutral-border-primary)
-	);
 }
 
-[data-type="video-gallery"] lite-youtube {
+[data-type="video-gallery"] lite-youtube:defined {
 	block-size: 67vh; /* no specific reason this magic number was chosen */
 	aspect-ratio: 9/19.8;
-	border: unset;
-	transform: scale(0.92);
 }
 
+/* we show the phone bezel only if the web component is defined */
+/* since the phone bezel appears before lite-youtube in the dom we need to use :has() */
 .phone-bg {
-	position: absolute;
-	inset: 0;
+	display: none;
+}
 
-	:is(figure, picture, img) {
-		inline-size: 100%;
-		block-size: 100%;
+.product-info:has(lite-youtube:defined) {
+	.gallery > li {
+		position: relative;
+		filter: drop-shadow(
+			0.5rem 0.25rem 0.25rem var(--color-neutral-border-primary)
+		);
 	}
 
-	&:before {
-		content: "";
+	.phone-bg {
+		display: unset;
 		position: absolute;
-		inset: 1.6% 5%;
-		background: black;
-		border-radius: 1.5rem;
+		inset: 0;
+
+		:is(figure, picture, img) {
+			inline-size: 100%;
+			block-size: 100%;
+		}
+
+		&:before {
+			content: "";
+			position: absolute;
+			inset: 1.6% 5%;
+			background: black;
+			border-radius: 1.5rem;
+		}
+	}
+
+	/* we update the lite-youtube styles to adapt to the phone bezel */
+	[data-type="video-gallery"] lite-youtube:defined {
+		border: unset;
+		transform: scale(0.92);
 	}
 }

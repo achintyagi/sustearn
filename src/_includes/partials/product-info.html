@@ -29,10 +29,10 @@
             {# {{ "short" if item.short }} #}
           >
             <a
-              class="lite-youtube-fallback"
+              class="lite-youtube-fallback stack box"
               href="https://www.youtube.com/watch?v={{ item.url }}"
             >
-              Watch on YouTube: "{{ item.title }}"</a>
+              Watch on YouTube:<br>"{{ item.title }}"</a>
           </lite-youtube>
         </li>
       {% endfor %}
@@ -46,10 +46,10 @@
       {# {{ "short" if product.videoList[0].short }} #}
     >
       <a
-        class="lite-youtube-fallback"
+        class="lite-youtube-fallback stack box"
         href="https://www.youtube.com/watch?v={{ product.videoList[0].url }}"
       >
-        Watch on YouTube: "{{ product.videoList[0].title }}"</a>
+        Watch on YouTube:<br>"{{ product.videoList[0].title }}"</a>
     </lite-youtube>
   {% endif %}
 
