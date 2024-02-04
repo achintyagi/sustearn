@@ -31,7 +31,7 @@
 
 	align-self: stretch;
 	border-radius: var(--border-radius-medium);
-	box-shadow: var(--shadow-1);
+	box-shadow: var(--shadow-2);
 	overflow: hidden;
 }
 

@@ -49,5 +49,5 @@
 .box {
 	padding: var(--box-padding);
 	background-color: var(--color-neutral-bg-secondary);
-	box-shadow: var(--shadow-1);
+	box-shadow: var(--shadow-2);
 }
