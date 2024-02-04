@@ -1,0 +1,4 @@
+lite-youtube {
+	border: var(--border-thick) solid black;
+	border-radius: var(--border-radius-medium);
+}

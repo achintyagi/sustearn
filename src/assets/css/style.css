@@ -13,12 +13,13 @@
 @import "./_footer.css";
 @import "./_utilities.css";
 @import "./_icon.css";
+@import "./_lite-yt.css";
 
 @import "./_home.css";
 @import "./_hero.css";
 @import "./_solutions.css";
 @import "./_product-info.css";
-@import "./_product-gallery.css";
+@import "./_gallery.css";
 @import "./_benefits.css";
 @import "./_about.css";
 
