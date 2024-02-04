@@ -1,0 +1,87 @@
+<!-- product info and how it works -->
+{% for product in solutions.products %}
+<article 
+  class="product-info grid" 
+  id={{ product.title | slugify }}
+>
+  <h2 class="eyebrow">
+    {{ product.title }}
+  </h2>
+  
+  <!-- product videos -->
+  {% if product.videoList.length > 1 %}
+    <div class="gallery-container">
+      <ul class="gallery" role="list" data-type="video-gallery">
+      {% for item in product.videoList %}
+        <li>
+          <div class="phone-bg" aria-hidden="true">
+            {% image
+              "./assets/images/iphone-15-pro.png",
+              "",
+              "",
+              "(min-width: 48em) 50vw, 66vw"
+            %}
+          </div>
+          <lite-youtube 
+            videoid={{ item.url }}
+            videotitle="{{ item.title }}" 
+            posterquality="maxresdefault"
+            {# {{ "short" if item.short }} #}
+          >
+            <a
+              class="lite-youtube-fallback"
+              href="https://www.youtube.com/watch?v={{ item.url }}"
+            >
+              Watch on YouTube: "{{ item.title }}"</a>
+          </lite-youtube>
+        </li>
+      {% endfor %}
+      </ul>
+    </div>
+  {% else %}
+    <lite-youtube
+      videoid={{ product.videoList[0].url }}
+      videotitle="{{ product.videoList[0].title }}"
+      posterquality="maxresdefault"
+      {# {{ "short" if product.videoList[0].short }} #}
+    >
+      <a
+        class="lite-youtube-fallback"
+        href="https://www.youtube.com/watch?v={{ product.videoList[0].url }}"
+      >
+        Watch on YouTube: "{{ product.videoList[0].title }}"</a>
+    </lite-youtube>
+  {% endif %}
+
+  <!-- product images -->
+  {# {% if product.images %}
+    <div class="gallery-container">
+      <ul class="gallery" role="list">
+        {% for image in product.images %}
+          <li>
+            {% image
+              "./assets/images/app/" + image.url,
+              image.alt,
+              image.caption,
+              "(min-width: 48em) 40vw, 66vw"
+            %}
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  {% endif %} #}
+
+  <div class="how-it-works">
+    <h3 class="vh">How it works:</h3>
+    <dl>
+      {% for item in product.howItWorks %}
+        <div class="grid" data-columns="1fr 2fr">
+          <dt class="heading-3">{{ item.term }} </dt>
+          <dd>{{ item.description | md | safe }}</dd>
+        </div>
+      {% endfor %}
+    </dl>
+  </div>
+</article>
+{% endfor %}
+

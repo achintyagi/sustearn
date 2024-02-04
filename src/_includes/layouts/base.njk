@@ -42,6 +42,10 @@
   >
   <!-- async JS -->
   <script src="/assets/scripts/main-nav.js?{{ assetHash }}" defer></script>
+  <!-- the lite-yt script is only needed on the homepage -->
+  {% if page.url == "/" %}
+    <script src="/assets/scripts/lite-yt.js?{{ assetHash }}" defer></script>
+  {% endif %}
   <!-- meta information -->
   {%- include "partials/meta-info.html" -%}
   <!-- view transitions -->
