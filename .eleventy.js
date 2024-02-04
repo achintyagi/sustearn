@@ -27,6 +27,7 @@ const drafts = require("./config/plugins/drafts.js");
 const pluginImages = require("./config/plugins/images.js");
 const htmlmin = require("./config/transforms/html-min.js");
 const lightningCSS = require("./config/template-languages/css-config.js");
+const esbuild = require("./config/template-languages/js-config.js");
 const year = require("./config/shortcodes/year.js");
 
 module.exports = function (eleventyConfig) {
@@ -66,11 +67,11 @@ module.exports = function (eleventyConfig) {
 
 	//Custom Template Languages
 	eleventyConfig.addPlugin(lightningCSS);
+	eleventyConfig.addPlugin(esbuild);
 
 	//Passthrough copy
 	eleventyConfig.addPassthroughCopy("./src/assets/images");
 	eleventyConfig.addPassthroughCopy("./src/assets/fonts");
-	eleventyConfig.addPassthroughCopy("./src/assets/scripts");
 	eleventyConfig.addPassthroughCopy({ "./src/assets/images/favicons": "/" });
 
 	eleventyConfig.setServerOptions({
