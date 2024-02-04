@@ -72,7 +72,7 @@ module.exports = function (eleventyConfig) {
 	//Passthrough copy
 	eleventyConfig.addPassthroughCopy("./src/assets/images");
 	eleventyConfig.addPassthroughCopy("./src/assets/fonts");
-	eleventyConfig.addPassthroughCopy({ "./src/assets/images/favicons": "/" });
+	eleventyConfig.addPassthroughCopy({ "./src/assets/favicons": "/" });
 
 	eleventyConfig.setServerOptions({
 		showAllHosts: true,
