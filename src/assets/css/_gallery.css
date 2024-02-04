@@ -43,7 +43,10 @@
 }
 
 [data-type="video-gallery"] lite-youtube:defined {
-	block-size: 67vh; /* no specific reason this magic number was chosen */
+	block-size: min(
+		67vh,
+		40rem
+	); /* no specific reason this magic number was chosen */
 	aspect-ratio: 9/19.8;
 }
 
@@ -76,13 +79,14 @@
 			position: absolute;
 			inset: 1.6% 5%;
 			background: black;
-			border-radius: 1.5rem;
+			border-radius: 6%;
 		}
 	}
 
 	/* we update the lite-youtube styles to adapt to the phone bezel */
 	[data-type="video-gallery"] lite-youtube:defined {
 		border: unset;
+		border-radius: 2%;
 		transform: scale(0.92);
 	}
 }

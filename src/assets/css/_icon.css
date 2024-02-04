@@ -5,3 +5,7 @@
 a .bi-apple {
 	transform: translateY(-2px);
 }
+
+[href="/"] polyline {
+	stroke: var(--color-neutral-bg-primary);
+}

@@ -11,6 +11,7 @@
 
 		img {
 			min-block-size: 25rem;
+			inline-size: 100%;
 			object-fit: cover;
 			object-position: left top;
 		}
