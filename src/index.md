@@ -5,7 +5,7 @@ permalink: "/"
 
 hero:
   headline: "Empowering Sustainable Behaviour Through Reward Coins & Nudging"
-  description: "Reduce the *intent-action gap* in *sustainable practises* by leveraging *green IT*, *behavioral science nudges* and *monetary rewards* for sustainable practices in personal and corporate domains."
+  description: "Reduce the *intent-action gap* in *sustainable practises* in personal and corporate domains by leveraging *green&nbsp;IT*, *behavioral science nudges* and *monetary rewards*."
   cta:
     label: "Explore Solutions"
     url: "#solutions"
