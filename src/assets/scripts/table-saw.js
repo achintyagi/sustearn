@@ -109,8 +109,8 @@ table-saw.${this._identifier} {
 	}
 
 	addHeaders() {
-		let labels = Array.from(this.querySelectorAll("thead th")).map((entry) =>
-			entry.innerText.trim()
+		let labels = Array.from(this.querySelectorAll("thead th")).map(
+			(entry) => entry.innerText.trim() + ":"
 		);
 		if (labels.length === 0) {
 			this._needsStylesheet = false;
