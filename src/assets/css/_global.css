@@ -132,6 +132,7 @@ em {
 	--shadow-color: hsl(50.44deg 97.85% 63.53% / 33%);
 	font-style: normal;
 	box-shadow: inset 0 -1em 0 0 var(--shadow-color);
+	color: var(--color-neutral-text-secondary);
 
 	@supports (color: color-mix(in hsl, red, green)) {
 		--shadow-color: color-mix(

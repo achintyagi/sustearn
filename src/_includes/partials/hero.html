@@ -2,7 +2,7 @@
   <div class="flow">
     <h1>{{ hero.headline }}</h1>
     <p class="text-wrap:balance">
-      {{ hero.description }}
+      {{ hero.description | md | safe }}
     </p>
     <a 
       class="btn"

@@ -5,7 +5,7 @@ permalink: "/"
 
 hero:
   headline: "Empowering Sustainable Behaviour Through Reward Coins & Nudging"
-  description: "Chart and reduce your carbon emissions with our innovative tools, fostering sustainability in both personal and corporate realms."
+  description: "Reduce the *intent-action gap* in *sustainable practises* by leveraging *green IT*, *behavioral science nudges* and *monetary rewards* for sustainable practices in personal and corporate domains."
   cta:
     label: "Explore Solutions"
     url: "#solutions"
@@ -46,7 +46,7 @@ solutions:
         - url: "tZ2BHqdzw34"
           title: "Plan | SustEarn App"
           short: true
-        - url: "kLyu7g_OGUI"
+        - url: "987HSz3GeU8"
           title: "Edu | SustEarn App"
           short: true
         - url: "oQDIDkuygqo"
