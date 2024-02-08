@@ -60,10 +60,19 @@ h2,
 .heading-2,
 h3,
 .heading-3,
-h4 {
-	max-inline-size: 45ch;
+h4,
+.heading-4 {
 	color: var(--color-neutral-text-secondary);
 	font-family: var(--font-special);
+}
+
+h1,
+.heading-1,
+h2,
+.heading-2,
+h3,
+.heading-3 {
+	max-inline-size: 45ch;
 	text-wrap: balance;
 }
 
@@ -119,6 +128,7 @@ a {
 button,
 summary {
 	touch-action: manipulation;
+	cursor: pointer;
 }
 
 strong {
@@ -153,6 +163,11 @@ hr {
 
 address {
 	font-style: normal;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
 :target {

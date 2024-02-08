@@ -20,11 +20,11 @@ This summary provides key points from our privacy notice, but you can find out m
 
 ### What personal information do we process?
 
-When you visit, use, or navigate our Services, we may process personal information depending on how you interact with SLAE - Sustain Live and Earn and the Services, the choices you make, and the products and features you use. Learn more about [personal information you disclose to us](#).
+When you visit, use, or navigate our Services, we may process personal information depending on how you interact with SLAE - Sustain Live and Earn and the Services, the choices you make, and the products and features you use. Learn more about [personal information you disclose to us](#personal-information-you-disclose-to-us).
 
 ### Do we process any sensitive personal information?
 
-We may process sensitive personal information when necessary with your consent or as otherwise permitted by applicable law. Learn more about [sensitive information we process](#).
+We may process sensitive personal information when necessary with your consent or as otherwise permitted by applicable law. Learn more about [sensitive information we process](#sensitive-information).
 
 ### Do we receive any information from third parties?
 
@@ -32,23 +32,23 @@ We do not receive any information from third parties.
 
 ### How do we process your information?
 
-We process your information to provide, improve, and administer our Services, communicate with you, for security and fraud prevention, and to comply with law. We may also process your information for other purposes with your consent. We process your information only when we have a valid legal reason to do so. Learn more about [how we process your information](#).
+We process your information to provide, improve, and administer our Services, communicate with you, for security and fraud prevention, and to comply with law. We may also process your information for other purposes with your consent. We process your information only when we have a valid legal reason to do so. Learn more about [how we process your information](#how-do-we-process-your-information).
 
 ### In what situations and with which parties do we share personal information?
 
-We may share information in specific situations and with specific third parties. Learn more about [when and with whom we share your personal information](#).
+We may share information in specific situations and with specific third parties. Learn more about [when and with whom we share your personal information](#when-and-with-whom-do-we-share-your-personal-information).
 
 ### How do we keep your information safe?
 
-We have organisational and technical processes and procedures in place to protect your personal information. However, no electronic transmission over the internet or information storage technology can be guaranteed to be 100% secure, so we cannot promise or guarantee that hackers, cybercriminals, or other unauthorised third parties will not be able to defeat our security and improperly collect, access, steal, or modify your information. Learn more about [how we keep your information safe](#).
+We have organisational and technical processes and procedures in place to protect your personal information. However, no electronic transmission over the internet or information storage technology can be guaranteed to be 100% secure, so we cannot promise or guarantee that hackers, cybercriminals, or other unauthorised third parties will not be able to defeat our security and improperly collect, access, steal, or modify your information. Learn more about [how we keep your information safe](#how-do-we-keep-your-information-safe).
 
 ### What are your rights?
 
-Depending on where you are located geographically, the applicable privacy law may mean you have certain rights regarding your personal information. Learn more about [your privacy rights](#).
+Depending on where you are located geographically, the applicable privacy law may mean you have certain rights regarding your personal information. Learn more about [your privacy rights](#what-are-your-privacy-rights).
 
 ### How do you exercise your rights?
 
-The easiest way to exercise your rights is by submitting a [data subject access request](#), or by contacting us. We will consider and act upon any request in accordance with applicable data protection laws.
+The easiest way to exercise your rights is by submitting a [data subject access request](https://app.termly.io/notify/e100e6f8-01ba-4647-bbc0-81f07c463149), or by contacting us. We will consider and act upon any request in accordance with applicable data protection laws.
 
 Want to learn more about what SLAE - Sustain Live and Earn does with any information we collect? Review the privacy notice below in full.
 
@@ -127,7 +127,7 @@ We process your personal information for a variety of reasons, depending on how 
 - **To respond to user inquiries/offer support to users**. We may process your information to respond to your inquiries and solve any potential issues you might have with the requested service.
 - **To send administrative information to you**. We may process your information to send you details about our products and services, changes to our terms and policies, and other similar information.
 - **To fulfil and manage your orders**. We may process your information to fulfil and manage your orders, payments, returns, and exchanges made through the Services.
-- **To send you marketing and promotional communications**. We may process the personal information you send to us for our marketing purposes, if this is in accordance with your marketing preferences. You can opt out of our marketing emails at any time. For more information, see ['WHAT ARE YOUR PRIVACY RIGHTS?'](#) below).
+- **To send you marketing and promotional communications**. We may process the personal information you send to us for our marketing purposes, if this is in accordance with your marketing preferences. You can opt out of our marketing emails at any time. For more information, see ['WHAT ARE YOUR PRIVACY RIGHTS?'](#what-are-your-privacy-rights) below).
 - **To protect our Services**. We may process your information as part of our efforts to keep our Services safe and secure, including fraud monitoring and prevention.
 - **To save or protect an individual's vital interest**. We may process your information when necessary to save or protect an individual's vital interest, such as to prevent harm.
 
@@ -149,7 +149,7 @@ The General Data Protection Regulation (GDPR) and UK GDPR require us to explain 
 
 **If you are located in Canada, this section applies to you.**
 
-We may process your information if you have given us specific permission (i.e. express consent) to use your personal information for a specific purpose, or in situations where your permission can be inferred (i.e. implied consent). You can [withdraw your consent](#) at any time.
+We may process your information if you have given us specific permission (i.e. express consent) to use your personal information for a specific purpose, or in situations where your permission can be inferred (i.e. implied consent). You can withdraw your consent at any time.
 
 In some exceptional cases, we may be legally permitted under applicable law to process your information without your consent, including, for example:
 
@@ -197,9 +197,9 @@ We have implemented appropriate and reasonable technical and organisational secu
 
 ## What Are Your Privacy Rights
 
-**In Short**: In some regions, such as the European Economic Area (EEA), United Kingdom (UK), and Canada, you have rights that allow you greater access to and control over your personal information.Â You may review, change, or terminate your account at any time.
+**In Short**: In some regions, such as the European Economic Area (EEA), United Kingdom (UK), and Canada, you have rights that allow you greater access to and control over your personal information. You may review, change, or terminate your account at any time.
 
-In some regions (like the EEA, UK, and Canada), you have certain rights under applicable data protection laws. These may include the right (i) to request access and obtain a copy of your personal information, (ii) to request rectification or erasure; (iii) to restrict the processing of your personal information; and (iv) if applicable, to data portability. In certain circumstances, you may also have the right to object to the processing of your personal information. You can make such a request by contacting us by using the contact details provided in the section ['HOW CAN YOU CONTACT US ABOUT THIS NOTICE?'](#) below.
+In some regions (like the EEA, UK, and Canada), you have certain rights under applicable data protection laws. These may include the right (i) to request access and obtain a copy of your personal information, (ii) to request rectification or erasure; (iii) to restrict the processing of your personal information; and (iv) if applicable, to data portability. In certain circumstances, you may also have the right to object to the processing of your personal information. You can make such a request by contacting us by using the contact details provided in the section ['HOW CAN YOU CONTACT US ABOUT THIS NOTICE?'](#how-can-you-contact-us-about-this-notice) below.
 
 We will consider and act upon any request in accordance with applicable data protection laws.
 
@@ -211,7 +211,7 @@ If you are located in Switzerland, you may contact the [Federal Data Protection 
 
 However, please note that this will not affect the lawfulness of the processing before its withdrawal nor, when applicable law allows, will it affect the processing of your personal information conducted in reliance on lawful processing grounds other than consent.
 
-**Opting out of marketing and promotional communications:** You can unsubscribe from our marketing and promotional communications at any time by clicking on the unsubscribe link in the emails that we send, or by contacting us using the details provided in the section ['HOW CAN YOU CONTACT US ABOUT THIS NOTICE?'](#) below. You will then be removed from the marketing lists. However, we may still communicate with you for example, to send you service-related messages that are necessary for the administration and use of your account, to respond to service requests, or for other non-marketing purposes.
+**Opting out of marketing and promotional communications:** You can unsubscribe from our marketing and promotional communications at any time by clicking on the unsubscribe link in the emails that we send, or by contacting us using the details provided in the section ['HOW CAN YOU CONTACT US ABOUT THIS NOTICE?'](#how-can-you-contact-us-about-this-notice) below. You will then be removed from the marketing lists. However, we may still communicate with you for example, to send you service-related messages that are necessary for the administration and use of your account, to respond to service requests, or for other non-marketing purposes.
 
 ### Account Information
 
@@ -251,3 +251,169 @@ If this definition of 'resident' applies to you, we must adhere to certain right
 **What categories of personal information do we collect?**
 
 We have collected the following categories of personal information in the past twelve (12) months:
+
+{% include "partials/privacy-table.html" %}
+
+We will use and retain the collected personal information as needed to provide the Services or for:
+
+- Category F - As long as the user has an account with us
+- Category K - As long as the user has an account with us
+- Category L - As long as the user has an account with us
+
+Category L information may be used, or disclosed to a service provider or contractor, for additional, specified purposes. You have the right to limit the use or disclosure of your sensitive personal information.
+
+We may also collect other personal information outside of these categories through instances where you interact with us in person, online, or by phone or mail in the context of:
+
+- Receiving help through our customer support channels;
+- Participation in customer surveys or contests; and
+- Facilitation in the delivery of our Services and to respond to your inquiries.
+
+**How do we use and share your personal information?**
+
+More information about our data collection and sharing practices can be found in this privacy notice.
+
+You may contact us by email at <achintyagi@yahoo.com>, or by referring to the contact details at the bottom of this document.
+
+If you are using an authorised agent to exercise your right to opt out we may deny a request if the authorised agent does not submit proof that they have been validly authorised to act on your behalf.
+
+**Will your information be shared with anyone else?**
+
+We may disclose your personal information with our service providers pursuant to a written contract between us and each service provider. Each service provider is a for-profit entity that processes the information on our behalf, following the same strict privacy protection obligations mandated by the CCPA.
+
+We may use your personal information for our own business purposes, such as for undertaking internal research for technological development and demonstration. This is not considered to be 'selling' of your personal information.
+
+SLAE - Sustain Live and Earn has not disclosed, sold, or shared any personal information to third parties for a business or commercial purpose in the preceding twelve (12) months. SLAE - Sustain Live and Earn will not sell or share personal information in the future belonging to website visitors, users, and other consumers.
+
+### Your rights with respect to your personal data
+
+**Right to request deletion of the data/Request to delete**
+
+You can ask for the deletion of your personal information. If you ask us to delete your personal information, we will respect your request and delete your personal information, subject to certain exceptions provided by law, such as (but not limited to) the exercise by another consumer of his or her right to free speech, our compliance requirements resulting from a legal obligation, or any processing that may be required to protect against illegal activities.
+
+**Right to be informed/Request to know**
+
+Depending on the circumstances, you have a right to know:
+
+- whether we collect and use your personal information;
+- the categories of personal information that we collect;
+- the purposes for which the collected personal information is used;
+- whether we sell or share personal information to third parties;
+- the categories of personal information that we sold, shared, or disclosed for a business purpose;
+- the categories of third parties to whom the personal information was sold, shared, or disclosed for a business purpose;
+- the business or commercial purpose for collecting, selling, or sharing personal information; and
+- the specific pieces of personal information we collected about you.
+
+In accordance with applicable law, we are not obligated to provide or delete consumer information that is de-identified in response to a consumer request or to re-identify individual data to verify a consumer request.
+
+**Right to Non-Discrimination for the Exercise of a Consumer€™s Privacy Rights**
+
+We will not discriminate against you if you exercise your privacy rights.
+
+**Right to Limit Use and Disclosure of Sensitive Personal Information**
+
+If the business collects any of the following:
+
+- social security information, drivers' licenses, state ID cards, passport numbers
+- account login information
+- credit card numbers, financial account information, or credentials allowing access to such accounts
+- precise geolocation
+- racial or ethnic origin, religious or philosophical beliefs, union membership
+- the contents of email and text, unless the business is the intended recipient of the communication
+- genetic data, biometric data, and health data
+- data concerning sexual orientation and sex life
+
+you have the right to direct that business to limit its use of your sensitive personal information to that use which is necessary to perform the Services.
+
+Once a business receives your request, they are no longer allowed to use or disclose your sensitive personal information for any other purpose unless you provide consent for the use or disclosure of sensitive personal information for additional purposes.
+
+Please note that sensitive personal information that is collected or processed without the purpose of inferring characteristics about a consumer is not covered by this right, as well as the publicly available information.
+
+To exercise your right to limit use and disclosure of sensitive personal information, please email <achintyagi@yahoo.com> or submit a [data subject access request](https://app.termly.io/notify/e100e6f8-01ba-4647-bbc0-81f07c463149).
+
+**Verification process**
+
+Upon receiving your request, we will need to verify your identity to determine you are the same person about whom we have the information in our system. These verification efforts require us to ask you to provide information so that we can match it with information you have previously provided us. For instance, depending on the type of request you submit, we may ask you to provide certain information so that we can match the information you provide with the information we already have on file, or we may contact you through a communication method (e.g. phone or email) that you have previously provided to us. We may also use other verification methods as the circumstances dictate.
+
+We will only use personal information provided in your request to verify your identity or authority to make the request. To the extent possible, we will avoid requesting additional information from you for the purposes of verification. However, if we cannot verify your identity from the information already maintained by us, we may request that you provide additional information for the purposes of verifying your identity and for security or fraud-prevention purposes. We will delete such additionally provided information as soon as we finish verifying you.
+
+**Other privacy rights**
+
+- You may object to the processing of your personal information.
+- You may request correction of your personal data if it is incorrect or no longer relevant, or ask to restrict the processing of the information.
+- You can designate an authorised agent to make a request under the CCPA on your behalf. We may deny a request from an authorised agent that does not submit proof that they have been validly authorised to act on your behalf in accordance with the CCPA.
+- You may request to opt out from future selling or sharing of your personal information to third parties. Upon receiving an opt-out request, we will act upon the request as soon as feasibly possible, but no later than fifteen (15) days from the date of the request submission.
+
+To exercise these rights, you can contact us by email at <achintyagi@yahoo.com>, or by referring to the contact details at the bottom of this document. If you have a complaint about how we handle your data, we would like to hear from you.
+
+## Do Virginia Residents Have Specific Privacy Rights
+
+**In Short:** Yes, if you are a resident of Virginia, you may be granted specific rights regarding access to and use of your personal information.
+
+### Virginia CDPA Privacy Notice
+
+Under the Virginia Consumer Data Protection Act (CDPA):
+
+'Consumer' means a natural person who is a resident of the Commonwealth acting only in an individual or household context. It does not include a natural person acting in a commercial or employment context.
+
+'Personal data' means any information that is linked or reasonably linkable to an identified or identifiable natural person. 'Personal data' does not include de-identified data or publicly available information.
+
+'Sale of personal data' means the exchange of personal data for monetary consideration.
+
+If this definition 'consumer' applies to you, we must adhere to certain rights and obligations regarding your personal data.
+
+The information we collect, use, and disclose about you will vary depending on how you interact with SLAE - Sustain Live and Earn and our Services. To find out more, please visit the following links:
+
+- Personal data we collect
+- How we use your personal data
+- When and with whom we share your personal data
+
+**Your rights with respect to your personal data**
+
+- Right to be informed whether or not we are processing your personal data
+- Right to access your personal data
+- Right to correct inaccuracies in your personal data
+- Right to request deletion of your personal data
+- Right to obtain a copy of the personal data you previously shared with us
+- Right to opt out of the processing of your personal data if it is used for targeted advertising, the sale of personal data, or profiling in furtherance of decisions that produce legal or similarly significant effects ('profiling')
+
+SLAE - Sustain Live and Earn has not sold any personal data to third parties for business or commercial purposes. SLAE - Sustain Live and Earn will not sell personal data in the future belonging to website visitors, users, and other consumers.
+
+**Exercise your rights provided under the Virginia CDPA**
+
+More information about our data collection and sharing practices can be found in this privacy notice.
+
+You may contact us by email at achintyagi@yahoo.com, by submitting a [data subject access request](https://app.termly.io/notify/e100e6f8-01ba-4647-bbc0-81f07c463149), or by referring to the contact details at the bottom of this document.
+
+If you are using an authorised agent to exercise your rights, we may deny a request if the authorised agent does not submit proof that they have been validly authorised to act on your behalf.
+
+**Verification process**
+
+We may request that you provide additional information reasonably necessary to verify you and your consumer's request. If you submit the request through an authorised agent, we may need to collect additional information to verify your identity before processing your request.
+
+Upon receiving your request, we will respond without undue delay, but in all cases, within forty-five (45) days of receipt. The response period may be extended once by forty-five (45) additional days when reasonably necessary. We will inform you of any such extension within the initial 45-day response period, together with the reason for the extension.
+
+**Right to appeal**
+
+If we decline to take action regarding your request, we will inform you of our decision and reasoning behind it. If you wish to appeal our decision, please email us at achintyagi@yahoo.com. Within sixty (60) days of receipt of an appeal, we will inform you in writing of any action taken or not taken in response to the appeal, including a written explanation of the reasons for the decisions. If your appeal if denied, you may contact the [Attorney General to submit a complaint](https://www.oag.state.va.us/consumer-protection/index.php/file-a-complaint).
+
+## Do We Make Updates To This Notice
+
+**In Short:** Yes, we will update this notice as necessary to stay compliant with relevant laws.
+
+We may update this privacy notice from time to time. The updated version will be indicated by an updated 'Revised' date and the updated version will be effective as soon as it is accessible. If we make material changes to this privacy notice, we may notify you either by prominently posting a notice of such changes or by directly sending you a notification. We encourage you to review this privacy notice frequently to be informed of how we are protecting your information.
+
+## How Can You Contact Us About This Notice
+
+If you have questions or comments about this notice, you may contact our Data Protection Officer (DPO) , Achin Tyagi, by email at <achintyagi@yahoo.com>, by phone at 8369935706, or by post to:
+
+SLAE - Sustain Live and Earn<br>
+Achin Tyagi<br>
+Tower 6, Lotus Panache, Sector 110, Noida<br>
+Uttar Pradesh 201304, India<br>
+India
+
+## How Can You Review Update Or Delete The Data We Collect From You
+
+Based on the applicable laws of your country, you may have the right to request access to the personal information we collect from you, change that information, or delete it. To request to review, update, or delete your personal information, please fill out and submit a [data subject access request](https://app.termly.io/notify/e100e6f8-01ba-4647-bbc0-81f07c463149).
+
+This privacy policy was created using Termly's [Privacy Policy Generator](https://termly.io/products/privacy-policy-generator/).

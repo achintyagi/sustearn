@@ -46,6 +46,9 @@
   {% if page.url == "/" %}
     <script src="/assets/scripts/lite-yt.js?{{ assetHash }}" defer></script>
   {% endif %}
+  {% if page.url == "/privacy-policy/" %}
+    <script src="/assets/scripts/table-saw.js?{{ assetHash }}" defer></script>
+  {% endif %}
   <!-- meta information -->
   {%- include "partials/meta-info.html" -%}
   <!-- view transitions -->

@@ -8,13 +8,12 @@
         {{ lastUpdated }}
       </p>
     </header>
-    <details class="toc-container flow" open>
-      <summary class="heading-3">
+    <details class="toc-container">
+      <summary class="heading-4">
         Table of Contents
       </summary>
       {{ content | toc | safe }}
     </details>
-    <hr>
     <div class="legal-content flow">
       {{ content | safe }}
     </div>
